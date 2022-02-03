@@ -11,5 +11,6 @@ Personal page contained in one file!
 - SVG
 - SVG minification by SVGO
 - Material icons webfont
+- Google fonts
 
 if you came here from my other repos, this is just a school project 😅
