@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="411.5463"
+   height="479.92664"
+   viewBox="0 0 108.88829 126.98059"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20, custom)"
+   sodipodi:docname="decorator.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#999999"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     units="px"
+     width="512px"
+     inkscape:zoom="1.4142136"
+     inkscape:cx="182.43354"
+     inkscape:cy="281.42849"
+     inkscape:window-width="1920"
+     inkscape:window-height="1027"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2">
+    <rect
+       x="18.355579"
+       y="164.0274"
+       width="452.37698"
+       height="189.88213"
+       id="rect3604" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-15.25893,0.42060893)">
+    <path
+       id="rect846-3"
+       style="fill:none;stroke:#666666;stroke-width:8.023;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+       d="M 19.270269,88.220466 91.98669,33.218378 117.95223,67.546553 45.235811,122.54864 Z" />
+    <path
+       id="rect846-6"
+       style="fill:none;stroke:#666666;stroke-width:8.023;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+       d="M 94.170537,3.5907302 21.454046,58.592542 34.914206,76.387837 91.98669,33.218378 l 12.5057,16.533361 15.64349,-11.832871 z" />
+    <text
+       xml:space="preserve"
+       transform="scale(0.26458333)"
+       id="text3602"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect3604);fill:#000000;fill-opacity:1;stroke:none" />
+  </g>
+</svg>
