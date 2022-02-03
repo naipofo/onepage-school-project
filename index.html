@@ -9,13 +9,16 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Mono:wght@700&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="./assets/style.css">
     <link rel="icon" type="image/png" href="./favicon.png">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <script src="./assets/main.js" defer></script>
 </head>
 <body>
     <nav>
         <img src="./assets/logo-min.svg" alt="Shape Of Web" id="logo-img">
         <ul id="navmenu">
             <li>
-                <a href="#">
+                <a href="#about">
                     <span class="material-icons">info</span>
                     <span>About us</span>
                 </a>
@@ -40,8 +43,8 @@
             </li>
         </ul>
     </nav>
-    <main>
-        <!-- about us -->
+    <main id="about">
+        <h3>About Us</h3>
         <p>
             Shape of Web is a IT firm specalising in Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque dolores a dolorum error. Dolorem eveniet optio placeat cumque, quo est esse tempora suscipit velit impedit voluptatem, quaerat asperiores! Quasi, consequatur.
         </p>
@@ -53,10 +56,50 @@
         <p>Recusandae enim consequatur itaque a ut inventore voluptas suscipit rem perspiciatis neque. Corporis aliquid omnis nisi at corrupti sunt esse vel voluptatibus, facere dolores iste repudiandae recusandae similique harum debitis.</p>
         <p>Ab error amet optio cumque minima! Voluptate iure perspiciatis aperiam. Temporibus, repellat. Laboriosam voluptatem sint veniam neque, esse quis. Harum perferendis, velit ex adipisci soluta eos nihil itaque earum dolorum?</p>
         <p>Iure qui commodi alias cum recusandae libero ullam possimus repudiandae vitae labore molestias doloribus sequi totam quo amet expedita vero, reiciendis voluptatum velit aliquam quasi exercitationem! Aspernatur sapiente laborum aperiam?</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque molestias, veritatis suscipit hic placeat nihil similique maxime blanditiis, rerum fuga quo adipisci distinctio nesciunt exercitationem doloribus provident laborum! Voluptate, praesentium.</p>
+        <p>Corrupti corporis recusandae aliquid minima provident perferendis facilis quibusdam exercitationem molestias unde. Beatae, excepturi porro maiores dolorum similique magnam harum, consequatur iusto fuga, quidem facilis! Explicabo illo aliquam in praesentium.</p>
+        <p>Quisquam corrupti necessitatibus incidunt, eius sint placeat ad omnis excepturi labore. Quam hic laudantium ab fuga vero corrupti, doloremque error quia reiciendis eaque autem obcaecati cum dolores eius ratione corporis?</p>
+        <p>Beatae eveniet laboriosam sed ad voluptates omnis quisquam hic accusamus cumque dolore, aliquid eius animi minus debitis possimus. Nisi porro ullam rerum quaerat eum accusantium culpa illo itaque aperiam facere.</p>
+        <p>Laudantium, fuga magni. Ad et aut ipsa, at dolore reiciendis minus cumque fugiat veniam earum. Deserunt architecto doloribus saepe, aperiam, non commodi unde sequi expedita incidunt aspernatur perspiciatis reiciendis neque.</p>
+        <div id="about-foryou">
+            WE ARE HERE FOR YOU!
+        </div>
+        <p>Sed blanditiis similique maiores rerum ipsum provident necessitatibus eius hic autem aspernatur, vitae distinctio commodi nulla omnis id corrupti quod sunt magni fugiat velit veniam? Modi, quisquam in! Quibusdam, a.</p>
+        <p>Molestias dolorum quasi quaerat. Nobis eaque officia sunt ullam. Facere animi, rerum illum doloremque nobis iure officia minus sit qui facilis nam harum quia pariatur vero quasi delectus esse. Sunt!</p>
+        <p>Quidem hic aspernatur, dolorum magnam necessitatibus illo minus, aperiam nulla minima ipsa, ea molestiae. Ut itaque cum ad porro pariatur est, laborum rem perspiciatis velit possimus asperiores sapiente hic neque!</p>
+        <p>Sequi laudantium eum nesciunt earum hic suscipit qui, temporibus nihil. Quasi temporibus porro, fuga, consectetur corporis unde natus, esse praesentium impedit inventore quisquam accusamus fugiat facere nulla recusandae excepturi adipisci.</p>
+        <p>Aliquid, non maiores delectus nesciunt adipisci in eos asperiores esse illo ab ullam culpa qui beatae nulla eveniet aliquam cupiditate? Minus voluptate facilis provident deserunt? Minus fugiat laboriosam omnis sapiente.</p>
     </main>
-    <!-- <main id="offer"></main>
-    <main id="media"></main>
-    <main id="contact"></main> -->
+    <main id="offer">
+        <h3>Our offer</h3>
+        <div>Lorem, ipsum dolor.</div>
+        <div>Reprehenderit, vitae omnis?</div>
+        <div>Impedit, nihil obcaecati!</div>
+        <div>Omnis, aut consectetur.</div>
+        <div>Nesciunt, sapiente quaerat?</div>
+        <div>Explicabo, facere eligendi!</div>
+        <div>Recusandae, quasi neque.</div>
+        <div>Obcaecati, tenetur labore.</div>
+        <div>Vel, exercitationem nemo.</div>
+        <div>Dolores, totam ipsa!</div>
+    </main>
+    <main id="media">
+        <h3>Media</h3>
+        <img src="./media/laptop.webp" alt="laptop" loading="lazy">
+        <img src="./media/computer.webp" alt="computer" loading="lazy">
+        <img src="./media/desk.webp" alt="deck" loading="lazy">
+        <img src="./media/drawing.webp" alt="drawing" loading="lazy">
+        <img src="./media/pcb.webp" alt="pcb" loading="lazy">
+        <img src="./media/postit.webp" alt="postit note" loading="lazy">
+        <img src="./media/student.webp" alt="student" loading="lazy">
+    </main>
+    <main id="contact">
+        <h3>Contact Us</h3>
+        Ulica Ekspedientki 23, Wrocław <br>
+        Phone: <a href="tel:+48123123123">+48 123 123 123</a>
+        <div id="map"></div>
+        <noscript>You need javascript to show the map</noscript>
+    </main>
     <footer>
         &copy; Shape of Web / naipofo 2022
     </footer>

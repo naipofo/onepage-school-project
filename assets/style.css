@@ -1,5 +1,6 @@
 body{
     margin: 0;
+    overflow-x: hidden;
     background: rgb(250,250,201);
     background: linear-gradient(93deg, rgba(250,250,201,1) 0%, rgba(210,210,158,1) 100%);
     background-size:100% 100%;
@@ -8,8 +9,10 @@ body{
 nav{
     padding-top: 1rem;
     display: flex;
-    position: sticky;
+    position: fixed;
     top: 0;
+    left: 0;
+    right: 0;
     background: rgb(250,250,201);
     background: linear-gradient(180deg, rgba(250,250,201,1) 80%, rgba(231,231,181,0) 100%);
 }
@@ -35,16 +38,58 @@ nav{
     text-decoration: none;
     padding: .1rem;
     color: #444;
+    transition: .17s transform;
 }
+#navmenu>li>a:hover{
+    transform: scale(1.1);
+}
+#navmenu>li>a:active{
+    transform: scale(.8);
+}
+
 #navmenu>li>a>span:last-child{
     text-align: center;
-    font: italic 700 1em "Roboto Mono", monosapce;
+    font: 700 1em "Roboto Mono", monosapce;
     text-decoration: underline;
 }
 
 main{
     font: 1rem "Roboto", sans-serif;
     margin: 0 1rem;
+    display: none;
+    padding-top: 6rem;
+}
+
+main:target{
+    display: block;
+}
+
+#about-foryou{
+    font: 700 2.3rem "Roboto Mono", monosapce;
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+}
+#offer>div{
+    color: #111;
+}
+#offer>div:nth-child(odd){
+    background: white;
+}
+#offer>div:nth-child(even){
+    background: #eee;
+}
+
+#media>img{
+    height: 300px;
+    width: 500px;
+}
+
+#map{
+    width: 80vw;
+    height: 30rem;
 }
 
 footer{
